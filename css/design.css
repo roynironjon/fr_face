@@ -1,0 +1,209 @@
+/***** goole font import url link *****/
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+}
+body{
+    color: var(--background_color);
+}
+
+/* glbl color @ text  */
+:root{
+    --heading_color: #333;
+    --pragrap_color: #000;
+    --background_color: #dcdcdc;
+    --white_color: #fff;
+    --h4heading_color: #00000070;
+    --heading_3color: #fff700;
+}
+h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 5px;
+    color: var(--heading_color);
+}
+h2{
+    font-size: 29px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 5px;
+    color: var(--heading_color);
+}
+h3{
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 3px;
+    color: var(--heading_3color);
+    background: #3e343494;
+}
+h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 2px;
+    color: var(--h4heading_color);
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color:var(--pragrap_color);
+    letter-spacing: 2px;
+}
+/******* main container ********/
+.container{
+    max-width: 1000px;
+    padding: 0px 25px;
+    margin:  0 auto;
+}
+
+/* top header section css code start */
+.top_header .main_header_column .logo{
+    text-align: center;
+}
+.top_header .main_header_column .content_column{
+    text-align: center;
+}
+.top_header .main_header_column .content_column h1{
+    margin-top: -35px;
+}
+.top_header .main_header_column .content_column strong, a{
+    text-decoration: none;
+    color: var(--pragrap_color);
+    letter-spacing: 4px;
+}
+.top_header .main_header_column .btn_column{
+    text-align: center;
+    margin-top: 20px;
+}
+.top_header .main_header_column .btn_column h2{
+    background-color: var(--heading_color);
+    display: inline-block;
+    padding: 5px 40px;
+    color: var(--white_color);
+}
+/* top header section css design end */
+
+.form_heading_section {
+    padding-bottom: 20px;
+}
+.form_heading_section .left_column{
+    margin-top: 20px;
+}
+.form_heading_section .left_column .fullname{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+}
+.form_heading_section .left_column .fullname .label{
+    width: 20%;
+    text-align: left;
+}
+.form_heading_section .left_column .fullname .fullname_field{
+    width: 78%;
+    text-align: left;
+}
+.form_heading_section .left_column .fullname .fullname_field .bengli{
+    width: 100%;
+    display: flex;
+}
+.form_heading_section .left_column .fullname .fullname_field .bengli .heading_text{
+    width: 20%;
+}
+.form_heading_section .left_column .fullname .fullname_field .bengli .input_field{
+    width: 80%;
+}
+.form_heading_section .left_column .fullname .fullname_field .bengli .input_field input{
+    width: 100%;
+}
+input{
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px dotted #333;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+    width: 100%;
+    font-family: serif;
+}
+label{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 2px;
+    color: var(--h4heading_color);
+}
+.form_heading_section .left_column .fullname .fullname_field  .teliphone{
+    display: flex;
+}
+.form_heading_section .left_column .fullname .fullname_field  .teliphone .input_field{
+    width: 50%;
+}
+.form_heading_section .left_column .fullname .fullname_field  .teliphone .teliphone_content{
+    width: 50%;
+    display: flex;
+}
+.form_heading_section .left_column .fullname .fullname_field  .teliphone .teliphone_content .teliphone_content_input{
+    width: 100%;
+}
+.form_heading_section .left_column .fullname .fullname_field .nominee_content{
+    display: flex;
+}
+.form_heading_section .left_column .fullname .fullname_field .nominee_content .nominee_content_text{
+    width: 55%;
+}
+.form_heading_section .left_column .fullname .fullname_field .nominee_content .nominee_content_input{
+    width: 45%;
+}
+/* personal information form section end  */
+
+/* seeling price section start */
+.selling_price{
+    padding-bottom: 40px;
+}
+.selling_price .selling_price_table table{
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 100%;
+}
+.selling_price .selling_price_table table tr, th, td{
+    border: 2px solid var(--h4heading_color);
+    padding: 10px 20px;
+    border-collapse: collapse;
+}
+.selling_price .selling_price_table table tr th{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 3px;
+    color: var(--pragrap_color);
+}
+.selling_price .selling_price_table table tr td{
+    padding: 30px 20px;
+}
+.selling_price .selling_price_table table tr td{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: var(--heading_color);
+}
+/* seeling price section end */
